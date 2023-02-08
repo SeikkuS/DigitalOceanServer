@@ -82,3 +82,17 @@ sitten latasin sivun uudelleen:
 ![kuva](https://user-images.githubusercontent.com/105205141/217610142-f1559d74-44c6-4317-9347-c644b14ca7c1.png)
 
 d)
+
+Kävin katsomassa auth.log ja access.log komennoilla
+
+      cat /var/log/apache2/auth.log
+      cat /var/log/apache2/access.log
+      
+Access.logista havaitsin yrityksen yhdistää palvelimeen, joka ei ollut omasta toimestani: 
+
+![kuva](https://user-images.githubusercontent.com/105205141/217612149-2cbd6850-c29d-4cdf-9959-a182910aca00.png)
+
+Kävin katsomassa mistä palvelimeen oli yhdistetty, kirjoitin löytämäni IP-osoitteen sivulle:
+https://whatismyipaddress.com/ip/193.32.162.159
+
+![kuva](https://user-images.githubusercontent.com/105205141/217612462-0cf4e126-0b4f-4e09-b32a-f14c6ddf2a1a.png)
