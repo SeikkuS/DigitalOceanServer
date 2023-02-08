@@ -2,6 +2,16 @@
 
 ## x)
 
+- VPS:n perustamiseen DigitalOceaniin Ubuntu 16.04 LTS:llä annetaan vaiheittaiset ohjeet.
+
+- Korostaa vahvojen salasanojen käytön tärkeyttä koko prosessin ajan.
+
+- Selitetään, miten luodaan uusi VPS-tili, kirjaudutaan sisään ensimmäistä kertaa, perustetaan palomuuri, luodaan sudo-käyttäjä, lukitaan pääkäyttäjätili, poistetaan pääkäyttäjän kirjautuminen käytöstä SSH:lla, päivitetään ohjelmisto ja tehdään palvelimesta julkisesti käytettävissä oleva.
+
+- Mainitaan ilmaisen VPS:n ja .me-verkkotunnuksen saatavuus GitHub Education -opiskelijapaketin kautta.
+
+- Antaa lyhyet ohjeet julkisen DNS-nimen lisäämisestä NameCheapissa.
+
 ## a) 
 
 Tein tilin Digital Oceaniin, jonka yhdistin Github Education -pakettiin. Tein Dropletin, jossa oli muistia 1GB ja tallenustilaa 25GB.
