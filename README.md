@@ -63,4 +63,12 @@ Tämän jälkeen kokeilin yhdistää varsinaisella tietokoneellani palvelimeeni 
 
 ![kuva](https://user-images.githubusercontent.com/105205141/217608012-a3ae068c-375b-49fd-b23a-55d767e014f0.png)
 
+Testasin muuttuuko index.html tiedosto kirjoittamalla seuraavan komennon:
 
+      echo moi | sudo tee /var/www/html/index.html
+      
+sitten latasin sivun uudelleen: 
+
+![kuva](https://user-images.githubusercontent.com/105205141/217610142-f1559d74-44c6-4317-9347-c644b14ca7c1.png)
+
+d)
